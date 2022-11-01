@@ -1,0 +1,181 @@
+body{
+    color: rgb(27, 52, 76);
+    font-family: fantasy;
+    font-size: 20px;
+    line-height: 0.2pt;
+    text-align: center;
+    background-color: rgb(215, 235, 244);
+    background-image: url(myself/ocean.jpg);
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 50%;
+    width: 180px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.4);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    margin: 20px;
+    padding: 0;
+}
+
+p{
+    font-family: 'Poor Story', cursive;
+    /* margin: 2em; */
+    line-height: 1.2;
+}
+
+.small-pic {
+width: 300px;
+}
+
+.ehl{
+    background-color: aliceblue;
+}
+
+.container{
+    padding: 32px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.card{
+    padding: 32px;
+    background-color: rgb(230, 243, 249);
+    margin: 32px;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px rgba(0,0,0,1);
+}
+
+.card-white{
+    background-color: rgba(189, 225, 241, 0.718);
+}
+
+.card-red{
+    background-color: rgba(139, 198, 226, 0.697);
+}
+
+.card-yellow{
+    background-color: rgba(92, 178, 218, 0.74);
+}
+
+.card-blue{
+    background-color: rgba(44, 156, 208, 0.714);
+}
+
+.card-black{
+    background-color: rgba(13, 108, 152, 0.768);
+}
+
+.button{
+    transition: 0.4s ease-in-out;
+    font-size: 24px;
+    color: rgb(66, 135, 196);
+    text-shadow: 20%;
+    text-decoration: wavy;
+    background-color: rgba(255, 255, 255, 0.722);
+    border-radius: 10px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    font-size: medium;
+    line-height: 2;
+}
+
+.button:hover{
+    background-color: rgb(108, 199, 230);
+}
+
+i{
+    font-size: 52px;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+i:hover{
+    color: rgb(204, 227, 247);
+}
+
+.horoscope{
+    transition: 0.4s ease-in-out;
+    font-size: 24px;
+    color: rgb(7, 34, 57);
+    text-shadow: 20%;
+    text-decoration: wavy;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    font-weight: bold;
+    padding: 60px 0.1px;
+   
+}
+
+.horoscope p {
+    word-wrap: break-word;
+}
+
+.horoscope:hover{
+    background-color: rgb(79, 157, 217);
+}
+
+
+.card-horoscope{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 15px;
+    background-image: url(myself/magic.png);
+}
+
+@media(max-width: 840px){
+    .container{
+        width: 600px;
+    }
+    iframe{
+        width: 20em;
+    }
+}
+
+@media(max-width: 730px){
+    .container{
+        width: 500px;
+    }
+    p{
+        font-size: small;
+    }
+    iframe{
+        width: 16em;
+    }
+    .horoscope{
+        width: 5em;
+        font-size: 15px;
+    }
+    .button{
+        font-size: 10px;
+    }
+
+
+
+}
